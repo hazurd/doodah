@@ -24,5 +24,6 @@ jobs:
           TWINE_USERNAME: ${{ env.TWINE_USERNAME }}
           TWINE_PASSWORD: ${{ secrets.TWINE_PASSWORD }}
         run: |
+          poetry install --no-root
           poetry build
           twine upload dist/*
