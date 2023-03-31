@@ -7,4 +7,4 @@ A discord bot. For now all it does is respond hello, to a "$hello" command in th
 
 ## Use
 - run `poetry install`
-- run `python3 dd/main.py`
+- run `python3 doodaw/main.py`

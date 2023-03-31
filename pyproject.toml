@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "doodah"
+name = "doodaw"
 version = "0.1.0"
 description = "A Discord bot"
 authors = ["The kids"]
@@ -10,6 +10,7 @@ python = "^3.9"
 [tool.poetry.dev-dependencies]
 black = "^21.8b0"
 "discord" = "^1.7.3"
+twine = "^4.0.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
