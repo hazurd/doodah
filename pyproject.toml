@@ -1,7 +1,14 @@
 [tool.poetry]
-name = "doodah"
-version = "0.1.0"
-description = "A Discord bot"
+name = "doodaw"
+version = "0.1.2"
+description = """
+A Discord bot
+
+This is a Discord bot that will do stuff.
+Right now it only responds to '$hello' in the general channel of https://discord.gg/JPyHw558.
+That's if you pull it down and run it yourself with your own Discord bot token.
+"""
+
 authors = ["The kids"]
 
 [tool.poetry.dependencies]
@@ -10,7 +17,12 @@ python = "^3.9"
 [tool.poetry.dev-dependencies]
 black = "^21.8b0"
 "discord" = "^1.7.3"
+twine = "^4.0.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[Project-URL]
+"Documentation" = "coming soon"
+"Source Code" = "https://github.com/hazurd/doodah"
